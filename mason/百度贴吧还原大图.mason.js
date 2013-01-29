@@ -20,8 +20,8 @@ part2=tieba\.baidu\.com.*\d{8,}
 <part1>
 // 重定向
 function _masonRedirect(spec){
-	var picID=spec.match(/[a-z0-9]{20,}(?=\.[jpg|png|gif])/)[0];
-	return 'http://imgsrc.baidu.com/forum/pic/item/'+picID+'.jpg';
+	var picID=spec.match(/[a-z0-9]{20,}\.[jpg|png|gif]/)[0];
+	return 'http://imgsrc.baidu.com/forum/pic/item/'+picID;
 }
 </part1>
 <part2>
