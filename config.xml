@@ -1,0 +1,137 @@
+<UserScriptConfig>
+	<Script basedir="tiebaAllsign" checkRemoteUpdates="1" dependhash="ac9a5808e6774d58bb100a4376423fc405cf7d2f" description="贴吧集中签到" enabled="true" filename="141939.user.js" installTime="1359215932330" modified="1359215932000" name="tiebaAllsign" namespace="userscripts.org" runAt="document-end" uuid="d07fe819-1bde-40ea-94bf-bd02f17aa7aa" version="2013.1.25.0" installurl="https://userscripts.org/scripts/source/141939.user.js" updateurl="https://userscripts.org/scripts/source/141939.meta.js" icon="4e2ed7f8bbb3d4f2c2d2bb21">
+		<Grant>GM_addStyle</Grant>
+		<Grant>GM_deleteValue</Grant>
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Grant>unsafeWindow</Grant>
+		<Include>http://www.baidu.com/</Include>
+		<Include>http://www.baidu.com/index.php?tn=baiduhome_pg</Include>
+		<Include>http://tieba.baidu.com/f?kw=*</Include>
+		<Include>http://tieba.baidu.com/f?ie=gbk&amp;kw=*</Include>
+		<Include>http://tieba.baidu.com/f?ie=utf-8&amp;kw=*</Include>
+	</Script>
+	<Script basedir="百度文库自动评分" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="百度文库评分" enabled="false" filename="155907.user.js" installTime="1358481888047" modified="1358841420000" name="百度文库评分" namespace="http://www.sbwtw.cn/" runAt="document-end" uuid="18142805-a2bb-4468-b266-bf653808cb4a" version="1.0.2" installurl="https://userscripts.org/scripts/source/155907.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/155907.meta.js">
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Include>http://wenku.baidu.com/view/*.html</Include>
+	</Script>
+	<Script basedir="校长之怒" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="false" filename="105184.user.js" installTime="1358483233444" modified="1358483233000" name="校长之怒" namespace="angerOfPresident" runAt="document-end" uuid="ea1ebac9-0fa5-4c1e-abf4-8bd9ecb5798b" version="1.1.1.1.1.1.1" installurl="http://userscripts.org/scripts/source/105184.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/105184.meta.js">
+		<Grant>GM_addStyle</Grant>
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Grant>unsafeWindow</Grant>
+		<Include>http://tieba.baidu.com/*</Include>
+		<Include>http://tieba.baidu.com.cn/*</Include>
+	</Script>
+	<Script basedir="FrozenFace" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="给百度贴吧添加一些有意思的功能" enabled="true" filename="124849.user.js" installTime="1358483240537" modified="1358483240000" name="FrozenFace" namespace="userscripts.org" runAt="document-end" uuid="5580eae1-d78c-4d40-9e00-372c4918b12c" version="5.11" installurl="http://userscripts.org/scripts/source/124849.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/124849.meta.js">
+		<Exclude>http://tieba.baidu.com/i/*</Exclude>
+		<Exclude>http://tieba.baidu.com/club/*</Exclude>
+		<Exclude>http://tieba.baidu.com/shipin/*</Exclude>
+		<Exclude>http://tieba.baidu.com/bakan*</Exclude>
+		<Exclude>http://tieba.baidu.com/daquan*</Exclude>
+		<Exclude>http://tieba.baidu.com/f/tupian*</Exclude>
+		<Exclude>http://tieba.baidu.com/tb/editor/*</Exclude>
+		<Exclude>http://tieba.baidu.com/*postBrowserBakan*</Exclude>
+		<Grant>GM_addStyle</Grant>
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_openInTab</Grant>
+		<Grant>GM_setValue</Grant>
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Include>http://tieba.baidu.com/*</Include>
+	</Script>
+	<Script basedir="Ajax" checkRemoteUpdates="1" dependhash="40277a5d185a7771720345cbd0cbf7f8a63db577" description="" enabled="false" filename="Ajax.user.js" installTime="1358492542407" modified="1358835905000" name="Ajax" namespace="http://sbwtw.cn/" runAt="document-end" uuid="bc921aaa-61aa-4795-bd9f-fa0be28ed702" version="1.0" installurl="file:///home/sbw/.mozilla/firefox/bkjtiyx5.default/gm_scripts/Ajax/Ajax.user.js" updateurl="file:///home/sbw/.mozilla/firefox/bkjtiyx5.default/gm_scripts/Ajax/Ajax.user.js">
+		<Grant>none</Grant>
+		<Include>*</Include>
+		<Require filename="jquery-1.9.0.min.js"/>
+	</Script>
+	<Script basedir="OpenGG.Clean.Player" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="OpenGG.Clean.Player" enabled="true" filename="120679.user.js" installTime="1358675638831" modified="1358675638000" name="OpenGG.Clean.Player" namespace="http://OpenGG.me" runAt="document-end" uuid="73f99cd6-4a75-4cb1-a5c7-6fa84fcbe426" version="1.30" installurl="https://userscripts.org/scripts/source/120679.user.js" updateurl="https://userscripts.org/scripts/source/120679.meta.js">
+		<Exclude>http://www.kuaipan.cn/*</Exclude>
+		<Grant>unsafeWindow</Grant>
+		<Match>http://*/*</Match>
+		<Match>https://*/*</Match>
+	</Script>
+	<Script basedir="去除看图脚本" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="去除度娘脑残的连续看图" enabled="false" filename="156071.user.js" installTime="1358750964676" modified="1358750964000" name="去除看图脚本" namespace="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" runAt="document-start" uuid="1fc4dbc3-a68f-40da-a3b3-dc56efd0ccca" version="1.2" installurl="https://userscripts.org/scripts/source/156071.user.js" updateurl="https://userscripts.org/scripts/source/156071.meta.js">
+		<Grant>GM_addStyle</Grant>
+		<Grant>unsafeWindow</Grant>
+		<Include>http://tieba.baidu.com/*</Include>
+	</Script>
+	<Script basedir="百度贴吧图片放大" checkRemoteUpdates="1" dependhash="9186308e85f7c8b195cbca464ee4b7c2f40d4bee" description="鼠标移动到上面时放大，移走还原。" enabled="false" filename="156914.user.js" installTime="1358754629622" modified="1359395598000" name="百度贴吧图片放大" namespace="http://sbwtw.cn/" runAt="document-end" uuid="c60355e3-0eee-4145-9c8f-f0953fd357d8" version="13-01-23.2" installurl="https://userscripts.org/scripts/source/156914.user.js" updateurl="https://userscripts.org/scripts/source/156914.meta.js" icon="d92f6fd8ad5265626f726ee90f">
+		<Grant>unsafeWindow</Grant>
+		<Include>http://tieba.baidu.com/p/*</Include>
+		<Include>http://tieba.baidu.com/f?*</Include>
+	</Script>
+	<Script basedir="百度贴吧图片缩放增强脚本_Baidu_Tieba_Image_Scaling_Enhancer" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="增强百度贴吧图片缩放，看大图无需开新标签页。 Enhanced image scaling for Baidu Tieba, supports one-click toggle between semi-fullsize and fullsize images without opening new tabs." enabled="false" filename="122159.user.js" installTime="1358763774960" modified="1358763774000" name="百度贴吧图片缩放增强脚本 Baidu Tieba Image Scaling Enhancer" namespace="patwonder@163.com" runAt="document-end" uuid="87004187-819b-429d-a489-0dbd572f679a" version="0.33" installurl="http://userscripts.org/scripts/source/122159.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/122159.meta.js">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Include>http://tieba.baidu.com/club/*/p/*</Include>
+		<Include>http://tieba.baidu.com/f?kz=*</Include>
+		<Include>http://tieba.baidu.com/p/*</Include>
+		<Include>http://tieba.baidu.com/f?*ct=*z=*</Include>
+		<Include>http://tieba.baidu.com.cn/f?kz=*</Include>
+		<Include>http://tieba.baidu.com.cn/p/*</Include>
+		<Include>http://tieba.baidu.com.cn/f?*ct=*z=*</Include>
+		<Include>http://post.baidu.com/f?kz=*</Include>
+		<Include>http://post.baidu.com/p/*</Include>
+		<Include>http://post.baidu.com/f?*ct=*z=*</Include>
+		<Include>http://post.baidu.com.cn/f?kz=*</Include>
+		<Include>http://post.baidu.com.cn/p/*</Include>
+		<Include>http://post.baidu.com.cn/f?*ct=*z=*</Include>
+	</Script>
+	<Script basedir="百度文库自动评分-1" checkRemoteUpdates="1" dependhash="58f1f71af2d117cd53db1547e0dd68c0d77b4a0b" description="百度文库一键评分" enabled="false" filename="155907.user.js" installTime="1358767771085" modified="1358790315000" name="百度文库自动评分" namespace="http:www.sbwtw.cn/" runAt="document-end" uuid="45f9ad30-f486-4e5b-8b4c-bf2dd25f9359" version="1.0.2" installurl="https://userscripts.org/scripts/source/155907.user.js" updateurl="https://userscripts.org/scripts/source/155907.meta.js" icon="b772d3eab5ced4dad0c4cdb70e0d">
+		<Grant>unsafeWindow</Grant>
+		<Include>http://wenku.baidu.com/view/*</Include>
+	</Script>
+	<Script basedir="百度贴吧脚本" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="百度贴吧脚本 发帖 楼中楼 匿名 蓝字 红字 灰字 批量删帖 全选 2012.11.18" enabled="false" filename="149533.user.js" installTime="1358781268032" modified="1358781268000" name="百度贴吧脚本" namespace="https://userscripts.org/scripts/show/149533" runAt="document-end" uuid="6745e59f-27c1-4d94-a965-2b9f9a146c00" version="0.1.8.0" installurl="https://userscripts.org/scripts/source/149533.user.js" updateurl="https://userscripts.org/scripts/source/149533.meta.js">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Grant>GM_deleteValue</Grant>
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Grant>GM_addStyle</Grant>
+		<Grant>GM_log</Grant>
+		<Grant>unsafeWindow</Grant>
+		<Include>http://tieba.baidu.com/*</Include>
+	</Script>
+	<Script basedir="百度知道助手" checkRemoteUpdates="1" dependhash="40277a5d185a7771720345cbd0cbf7f8a63db577" description="刷经验" enabled="false" filename="百度知道助手.user.js" installTime="1358841610889" modified="1358856365000" name="百度知道助手" namespace="http://sbwtw.cn/" runAt="document-end" uuid="e6922d55-b4dd-4b84-814f-73647b007fac" version="1" installurl="file:///home/sbw/.mozilla/firefox/bkjtiyx5.default/gm_scripts/%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%E5%8A%A9%E6%89%8B/%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%E5%8A%A9%E6%89%8B.user.js" updateurl="file:///home/sbw/.mozilla/firefox/bkjtiyx5.default/gm_scripts/%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%E5%8A%A9%E6%89%8B/%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%E5%8A%A9%E6%89%8B.user.js">
+		<Grant>none</Grant>
+		<Include>http://zhidao.baidu.com/question/*</Include>
+		<Require filename="jquery-1.9.0.min.js"/>
+	</Script>
+	<Script basedir="CSDN自动评论" checkRemoteUpdates="1" dependhash="5e7ed2549ad1f14abbff974cf043b038c31b9947" description="自动评论,返还下载积分" enabled="true" filename="157486.user.js" installTime="1359107759717" modified="1359109727000" name="CSDN自动评论" namespace="http://sbwtw.cn/" runAt="document-end" uuid="43aee119-99e6-408e-b72c-808f854a8ddb" version="13-01-25.1  Alpha" installurl="https://userscripts.org/scripts/source/.user.js" updateurl="https://userscripts.org/scripts/source/.meta.js" icon="d92f6fd8ad5265626f726ee90f">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Grant>GM_deleteValue</Grant>
+		<Grant>GM_listValues</Grant>
+		<Include>http://*.csdn.net*</Include>
+		<Require filename="jquery-1.9.0.min.js"/>
+	</Script>
+	<Script basedir="PageExpand" checkRemoteUpdates="1" dependhash="63b08be058a12fce2c90949a57235ad792b325eb" description="すべてのWEBページをリッチに展開。短縮URLの展開、URL文字列のリンク化、画像のポップアップ表示、動画のインライン表示、掲示板の拡張表示など。" enabled="false" filename="86954.user.js" installTime="1358924154957" modified="1358924154000" name="PageExpand" namespace="http://hakuhin.jp/page_expand" runAt="document-end" uuid="c25944c4-58e3-45a4-9f9d-585254d4e298" version="1.1.0" installurl="http://userscripts.org/scripts/source/86954.user.js" updateurl="http://userscripts.org/scripts/source/86954.meta.js" icon="icon32.png">
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Grant>GM_deleteValue</Grant>
+		<Grant>GM_log</Grant>
+		<Grant>GM_registerMenuCommand</Grant>
+		<Include>http://*</Include>
+		<Include>https://*</Include>
+		<Include>ftp://*</Include>
+	</Script>
+	<Script basedir="百度贴吧图片放大[经典模式]" checkRemoteUpdates="1" dependhash="9186308e85f7c8b195cbca464ee4b7c2f40d4bee" description="还原为以前百度的看图模式，新窗口打开，无连续看图，无水印" enabled="false" filename="157402.user.js" installTime="1359028738022" modified="1359045563000" name="百度贴吧图片放大[经典模式]" namespace="http://sbwtw.cn/" runAt="document-end" uuid="bec831bf-5654-4c85-95a5-12e5ec1bbc28" version="13-01-24.1" installurl="https://userscripts.org/scripts/source/157402.user.js" updateurl="https://userscripts.org/scripts/source/157402.meta.js" icon="d92f6fd8ad5265626f726ee90f">
+		<Grant>unsafeWindow</Grant>
+		<Include>http://tieba.baidu.com/p/*</Include>
+		<Include>http://tieba.baidu.com/f?*</Include>
+	</Script>
+	<Script basedir="CheckBoxMate_for_Greasemonkey" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="&quot;Check multiple checkboxes with ease by drawing a box around them to automatically select them all.&quot; Converted from nrlz's amazing CheckBoxMate Firefox Add-on (https://addons.mozilla.org/en-US/firefox/addon/9740). Works with Firefox 3.6.3." enabled="false" filename="73700.user.js" installTime="1359047021381" modified="1359047021000" name="CheckBoxMate for Greasemonkey" namespace="http://macdougalmedia.com/2010/04/07/checkboxmate-for-greasemonkey/" runAt="document-end" uuid="bb936834-5603-47d3-b034-d2eaab137741" version="null" installurl="http://userscripts.org/scripts/source/73700.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/73700.meta.js">
+		<Grant>none</Grant>
+		<Include>*</Include>
+	</Script>
+	<Script basedir="Batch_CSDN_Comment" checkRemoteUpdates="1" dependhash="c38c0c09806d6403971f431daacb8c889094b2d6" description="批量评论CSDN刷分~你懂得~" enabled="false" filename="140596.user.js" installTime="1359107162894" modified="1359107162000" name="Batch CSDN Comment" namespace="http://http://www.renren.com/sharpbai" runAt="document-end" uuid="23ae6c14-fddf-47cc-99db-2c946a82e484" version="null" installurl="http://userscripts.org/scripts/source/140596.user.js" updateurl="http://userscripts.org.nyud.net/scripts/source/140596.meta.js">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Grant>unsafeWindow</Grant>
+		<Include>http://download.csdn.net/my/downloads*</Include>
+		<Require filename="jquery-1.4.2.min.js"/>
+		<Require filename="jquery.rating.js"/>
+		<Require filename="update8.js"/>
+	</Script>
+</UserScriptConfig>
