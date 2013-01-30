@@ -14,13 +14,12 @@ Url=\.baidu\.com
 </mason>
 <parts>
 part1=imgsrc\.baidu\.com.*/sign=.*/[a-z0-9]{20,}\.jpg@@@L3
-// mason的正则好奇怪 = = 
-part2=tieba\.baidu\.com.*\d{8,}
+part2=tieba\.baidu\.com\/(p\/|f\?ct=)\d{8,}.*
 </parts>
 <part1>
 // 重定向
 function _masonRedirect(spec){
-	var picID=spec.match(/[a-z0-9]{20,}\.[jpg|png|gif]/)[0];
+	var picID=spec.match(/[a-z0-9]{10,}\/([a-z0-9]{20,}\.[jpg|png|gif])/)[1];
 	return 'http://imgsrc.baidu.com/forum/pic/item/'+picID;
 }
 </part1>
